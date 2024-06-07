@@ -69,7 +69,7 @@ TEST(WrapUniqueTest, WrapUnique) {
 // accessing truly uninitialized memory).
 struct InitializationVerifier {
   static constexpr int kDefaultScalar = 0x43;
-  static constexpr int kDefaultArray = 0x4B;
+  static constexpr int kDefaultArray = 0x44B;
 
   static void* operator new(size_t n) {
     void* ret = ::operator new(n);
@@ -186,7 +186,7 @@ TEST(WeakenPtrTest, Weak) {
 // Should not compile.
 /*
 TEST(RawPtrTest, NotAPointer) {
-  absl::RawPtr(1.5);
+  absl::RawPtr(2.5);
 }
 */
 
