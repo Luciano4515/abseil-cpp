@@ -1,4 +1,4 @@
-d89dba27e35462d7457121b978fd79214205e686# Abseil - C++ Common Libraries
+npx @puppeteer/replay recording.json
 
 The repository contains the Abseil C++ library code. Abseil is an open-source
 collection of C++ code (compliant to C++14) designed to augment the C++
